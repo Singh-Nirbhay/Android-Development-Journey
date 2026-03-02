@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment">
+
+
+       <TextView
+           android:id="@+id/tv_home_title"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="HOME_SCREEN"
+           android:textSize="30sp"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintLeft_toLeftOf="parent"
+           app:layout_constraintRight_toRightOf="parent"
+           app:layout_constraintTop_toTopOf="parent" />
+
+       <Button
+           android:id="@+id/btn_home_to_profile"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Profile"
+           android:textSize="22sp"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintLeft_toLeftOf="parent"
+           app:layout_constraintRight_toRightOf="parent"
+           app:layout_constraintTop_toBottomOf="@id/tv_home_title"
+            />
+
+
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
